@@ -65,16 +65,16 @@ Feel free to fork the repository and submit pull requests :)
 
 # SEE ALSO
 
-* [http://www.imdb.com/title/tt0113243/](Hackers)
-* [http://www.imdb.com/title/tt0159784/](Takedown)
-* [http://www.imdb.com/title/tt0309614/](Freedom Downtime)
-* [http://www.imdb.com/title/tt0308808/](Revolution OS)
+* [Hackers](http://www.imdb.com/title/tt0113243/)
+* [Takedown](http://www.imdb.com/title/tt0159784/)
+* [Freedom Downtime](http://www.imdb.com/title/tt0309614/)
+* [Revolution OS](http://www.imdb.com/title/tt0308808/)
 
 # AUTHOR
 
 [Alfie John](https://github.com/alfiedotwtf) [alfie@fastmail.com](mailto:alfie@fastmail.com)
 
-Photo from (http://commons.wikimedia.org/wiki/File:TeamTimeCar.com-BTTF_DeLorean_Time_Machine-OtoGodfrey.com-JMortonPhoto.com-01.jpg)[Wikimedia Commons] 
+Photo from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:TeamTimeCar.com-BTTF_DeLorean_Time_Machine-OtoGodfrey.com-JMortonPhoto.com-01.jpg)
 
 # WARRANTY
 
