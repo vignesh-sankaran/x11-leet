@@ -6,11 +6,11 @@ x11-leet - turn your machine into a leet workstation
 
 x11-leet is a handful of scripts that will automatically install and setup the following very useful packages:
 
-* feh - lightweight app to set background image for xdm and xroot
-* i3 - an awesome tiling window manager
-* Terminator - terminal with transparency that works
-* x11 - the X Window System
-* xdm - a simple X Display Manager
+* [feh](http://feh.finalrewind.org/) - lightweight app to set background image for xdm and xroot
+* [i3](https://i3wm.org/) - an awesome tiling window manager
+* [Terminator](http://gnometerminator.blogspot.com.au/p/introduction.html) - terminal with transparency that works
+* [x11](http://www.x.org/wiki/) - the X Window System
+* [xdm](http://www.x.org/wiki/) - a simple X Display Manager
 
 Here's an example of x11-leet installed on my machine:
 
