@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# This script is run as root before showing login widget.
+
+HOME=/tmp feh --bg-fill /etc/feh/background.jpg
