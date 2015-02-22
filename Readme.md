@@ -72,7 +72,7 @@ Feel free to fork the repository and submit pull requests :)
 
 # AUTHOR
 
-[Alfie John](https://github.com/alfiedotwtf) [alfie@fastmail.com](mailto:alfie@fastmail.com)
+[Alfie John](https://www.alfie.wtf) [alfie@fastmail.com](mailto:alfie@fastmail.com)
 
 Photo from [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:TeamTimeCar.com-BTTF_DeLorean_Time_Machine-OtoGodfrey.com-JMortonPhoto.com-01.jpg)
 
