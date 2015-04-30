@@ -39,10 +39,9 @@ comes up, uncheck the following:
 
 To install x11-leet:
 
-    wget https://github.com/alfiedotwtf/x11-leet/archive/master.zip
-    apt-get -y install unzip
-    unzip master.zip
-    cd x11-leet-master
+    apt-get -y install git
+    git clone https://github.com/alfiedotwtf/x11-leet
+    cd x11-leet
     make install
 
 Once installed, reboot :)
