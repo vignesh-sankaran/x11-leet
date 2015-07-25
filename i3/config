@@ -28,6 +28,18 @@ new_float  1pixel
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# lock screen
+bindcode $mod+Control+119 exec /usr/bin/xscreensaver-command -lock
+
+# screen capture
+bindsym $mod+Shift+p exec /usr/bin/scrot
+
+# firefox
+bindsym $mod+Shift+w exec /usr/local/bin/firefox
+
+# filemanager
+bindsym $mod+Shift+x exec /usr/bin/xfe
+
 # start a terminal
 bindsym $mod+Return exec /usr/local/bin/terminator-run
 

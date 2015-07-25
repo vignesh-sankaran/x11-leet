@@ -7,10 +7,14 @@ x11-leet - turn your machine into a leet workstation
 x11-leet is a handful of scripts that will automatically install and setup the following very useful packages:
 
 * [feh](http://feh.finalrewind.org/) - lightweight app to set background image for xdm and xroot
+* [Firefox](https://www.mozilla.org/en-US/firefox/products/) - Open source web browser of choice (Alt + Shift + w)
 * [i3](https://i3wm.org/) - an awesome tiling window manager
-* [Terminator](http://gnometerminator.blogspot.com.au/p/introduction.html) - terminal with transparency that works
+* [scrot](https://en.wikipedia.org/wiki/Scrot) - screen capturing tool (Alt + Shift + p)
+* [Terminator](http://gnometerminator.blogspot.com.au/p/introduction.html) - terminal with transparency that works (Alt + Enter)
 * [x11](http://www.x.org/wiki/) - the X Window System
 * [xdm](http://www.x.org/wiki/) - a simple X Display Manager
+* [xfe](http://roland65.free.fr/xfe/) - lightweight file manager for X Window (Alt + Shift + x)
+* [xscreensaver](http://www.jwz.org/xscreensaver/) - screen saver, blanking, and locking the screen (Ctrl + Alt + Delete)
 
 Here's an example of x11-leet installed on my machine:
 
@@ -39,7 +43,6 @@ comes up, uncheck the following:
 
 To install x11-leet:
 
-    apt-get -y install git
     git clone https://github.com/alfiedotwtf/x11-leet
     cd x11-leet
     make install
