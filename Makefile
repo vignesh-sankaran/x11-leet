@@ -23,6 +23,8 @@ install: all
 	  mv firefox /usr/local/;                                                                 \
 	  ln -sf /usr/local/firefox/firefox /usr/local/bin/firefox;                               \
 	fi
+	# needed to get Google Chrome running in Jessie
+	aptitude install gconf-service libgconf-2-4 libnspr4 libnss3 libpango1.0-0 libappindicator1 libcurl3
 
 diff:
 	$(foreach DIR, $(DIRS), make -C $(DIR) diff && ) true
