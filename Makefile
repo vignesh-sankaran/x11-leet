@@ -18,7 +18,7 @@ install: all
 	$(foreach DIR, $(DIRS), make -C $(DIR) install && ) true
 	apt-get -y install $(PACKAGES)
 	if [ ! -f /usr/local/firefox/firefox ]; then \
-	  wget $(FIREFOXURL)`curl $(FIREFOXURL) | grep bz2 | perl -pe 's/.*href="(.*?)".*/$$1/'`; \
+	  wget $(FIREFOXURL)`wget -O - $(FIREFOXURL) | grep bz2 | perl -pe 's/.*href="(.*?)".*/$$1/'`; \
 	  tar -jxf firefox-*.tar.bz2;                                                             \
 	  mv firefox /usr/local/;                                                                 \
 	  ln -sf /usr/local/firefox/firefox /usr/local/bin/firefox;                               \
