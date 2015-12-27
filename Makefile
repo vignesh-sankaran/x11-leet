@@ -1,4 +1,5 @@
-FIREFOXURL=https://download.mozilla.org/?product=firefox-latest\&os=linux64\&lang=en-US
+FiREFOXURL=https://download.mozilla.org/?product=firefox-latest\&os=linux64\&lang=en-US
+CHROMEURL=https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 DIRS=        \
   feh        \
@@ -7,10 +8,11 @@ DIRS=        \
   x11        \
   xdm        \
 
-PACKAGES=      \
-  scrot        \
-  xfe          \
-  xscreensaver \
+PACKAGES=          \
+  fonts-liberation \
+  scrot            \
+  xfe              \
+  xscreensaver     \
 
 all:
 
@@ -25,6 +27,10 @@ install: all
 	fi
 	# needed to get Google Chrome running in Jessie
 	aptitude install gconf-service libgconf-2-4 libnspr4 libnss3 libpango1.0-0 libappindicator1 libcurl3
+	if [ ! -f /usr/bin/google-chrome-stable ]; then \
+		wget $(CHROMEURL) -O chrome.deb;              \
+		dpkg -i chrome.deb;                           \
+	fi
 
 diff:
 	$(foreach DIR, $(DIRS), make -C $(DIR) diff && ) true
