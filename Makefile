@@ -37,6 +37,7 @@ install: all
 		wget $(CHROMEURL) -O chrome.deb;              \
 		dpkg -i chrome.deb;                           \
 	fi
+	xhost si:localuser:root
 
 diff:
 	$(foreach DIR, $(DIRS), make -C $(DIR) diff && ) true
