@@ -11,6 +11,7 @@ x11-leet is a handful of scripts that will automatically install and setup the f
 * [i3](https://i3wm.org/) - an awesome tiling window manager
 * [scrot](https://en.wikipedia.org/wiki/Scrot) - screen capturing tool (Alt + Shift + p)
 * [Terminator](http://gnometerminator.blogspot.com.au/p/introduction.html) - terminal with transparency that works (Alt + Enter)
+* [wicd-gtk](http://wicd.sourceforge.net/) - a simple wired and wireless network manager
 * [x11](http://www.x.org/wiki/) - the X Window System
 * [xdm](http://www.x.org/wiki/) - a simple X Display Manager
 * [xfe](http://roland65.free.fr/xfe/) - lightweight file manager for X Window (Alt + Shift + x)
