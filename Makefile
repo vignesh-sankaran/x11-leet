@@ -5,7 +5,6 @@ DIRS=        \
   feh        \
   i3         \
   terminator \
-  wicd-gtk   \
   x11        \
   xdm        \
 
@@ -19,6 +18,7 @@ PACKAGES=          \
   libnss3          \
   libpango1.0-0    \
   scrot            \
+  wicd-gtk         \
   xfe              \
   xscreensaver     \
 
