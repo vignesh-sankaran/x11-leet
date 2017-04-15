@@ -9,6 +9,8 @@ DIRS=        \
   xdm        \
 
 PACKAGES=          \
+  alsautils        \
+  firmware-iwlwifi \
   fonts-liberation \
   gconf-service    \
   libappindicator1 \
@@ -18,6 +20,7 @@ PACKAGES=          \
   libnss3          \
   libpango1.0-0    \
   scrot            \
+  vlc              \
   wicd-gtk         \
   xfe              \
   xscreensaver     \
