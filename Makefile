@@ -9,7 +9,7 @@ DIRS=        \
   xdm        \
 
 PACKAGES=          \
-  alsautils        \
+  alsa-utils       \
   firmware-iwlwifi \
   fonts-liberation \
   gconf-service    \
