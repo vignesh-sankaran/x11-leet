@@ -4,6 +4,7 @@ CHROMEURL=https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.
 DIRS=        \
   feh        \
   i3         \
+  rust       \
   terminator \
   x11        \
   xdm        \
